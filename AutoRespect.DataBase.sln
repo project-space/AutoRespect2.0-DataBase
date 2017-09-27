@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51FA9440-84A2-4BCC-8AE6-B6009A5B6D61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoRespect.DataBase.Migration.Launcher", "src\AutoRespect.DataBase.Migration.Launcher\AutoRespect.DataBase.Migration.Launcher.csproj", "{5CAD5F3A-F0B8-4F4F-BD79-F625AA4EF682}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoRespect.DataBase.Migration.IdentityServer", "src\AutoRespect.DataBase.Migration.IdentityServer\AutoRespect.DataBase.Migration.IdentityServer.csproj", "{AAA4D944-BC4E-4A64-BF81-A4BF5B2BA033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoRespect.DataBase.Migration.ResourceServer", "src\AutoRespect.DataBase.Migration.ResourceServer\AutoRespect.DataBase.Migration.ResourceServer.csproj", "{77F12536-2C69-4D55-9A18-25F1E575DD51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRespect.DataBase.Migration.Common", "src\AutoRespect.DataBase.Migration.Common\AutoRespect.DataBase.Migration.Common.csproj", "{9D512A81-A7B3-41D0-BB08-E538A55E8844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CAD5F3A-F0B8-4F4F-BD79-F625AA4EF682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAD5F3A-F0B8-4F4F-BD79-F625AA4EF682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAD5F3A-F0B8-4F4F-BD79-F625AA4EF682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAD5F3A-F0B8-4F4F-BD79-F625AA4EF682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA4D944-BC4E-4A64-BF81-A4BF5B2BA033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA4D944-BC4E-4A64-BF81-A4BF5B2BA033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA4D944-BC4E-4A64-BF81-A4BF5B2BA033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA4D944-BC4E-4A64-BF81-A4BF5B2BA033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F12536-2C69-4D55-9A18-25F1E575DD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F12536-2C69-4D55-9A18-25F1E575DD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F12536-2C69-4D55-9A18-25F1E575DD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F12536-2C69-4D55-9A18-25F1E575DD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D512A81-A7B3-41D0-BB08-E538A55E8844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D512A81-A7B3-41D0-BB08-E538A55E8844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D512A81-A7B3-41D0-BB08-E538A55E8844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D512A81-A7B3-41D0-BB08-E538A55E8844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CAD5F3A-F0B8-4F4F-BD79-F625AA4EF682} = {51FA9440-84A2-4BCC-8AE6-B6009A5B6D61}
+		{AAA4D944-BC4E-4A64-BF81-A4BF5B2BA033} = {51FA9440-84A2-4BCC-8AE6-B6009A5B6D61}
+		{77F12536-2C69-4D55-9A18-25F1E575DD51} = {51FA9440-84A2-4BCC-8AE6-B6009A5B6D61}
+		{9D512A81-A7B3-41D0-BB08-E538A55E8844} = {51FA9440-84A2-4BCC-8AE6-B6009A5B6D61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {704072B0-8CC1-4619-98D2-5A5DA5C5E781}
+	EndGlobalSection
+EndGlobal
