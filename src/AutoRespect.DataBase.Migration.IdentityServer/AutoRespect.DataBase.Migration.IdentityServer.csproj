@@ -9,8 +9,4 @@
     <EmbeddedResource Include="Scripts\0000001 - create account table.sql" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AutoRespect.DataBase.Migration.Common\AutoRespect.DataBase.Migration.Common.csproj" />
-  </ItemGroup>
-
 </Project>

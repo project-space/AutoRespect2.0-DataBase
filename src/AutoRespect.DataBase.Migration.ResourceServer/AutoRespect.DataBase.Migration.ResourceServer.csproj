@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Scripts\" />
+    <None Remove="Scripts\0000001 - create test table.sql" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoRespect.DataBase.Migration.Common\AutoRespect.DataBase.Migration.Common.csproj" />
+    <EmbeddedResource Include="Scripts\0000001 - create test table.sql" />
   </ItemGroup>
 
 </Project>

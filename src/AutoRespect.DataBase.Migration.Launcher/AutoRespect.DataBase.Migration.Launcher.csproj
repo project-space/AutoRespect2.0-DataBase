@@ -7,9 +7,12 @@
 
   <ItemGroup>
     <PackageReference Include="dbup" Version="4.0.0-beta0002" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\submodules\AutoRespect2.0-Infrastructure\src\AutoRespect.Infrastructure.DI\AutoRespect.Infrastructure.DI.csproj" />
+    <ProjectReference Include="..\..\submodules\AutoRespect2.0-Infrastructure\src\AutoRespect.Infrastructure.ServiceDiscovery\AutoRespect.Infrastructure.ServiceDiscovery.csproj" />
     <ProjectReference Include="..\AutoRespect.DataBase.Migration.IdentityServer\AutoRespect.DataBase.Migration.IdentityServer.csproj" />
     <ProjectReference Include="..\AutoRespect.DataBase.Migration.ResourceServer\AutoRespect.DataBase.Migration.ResourceServer.csproj" />
   </ItemGroup>

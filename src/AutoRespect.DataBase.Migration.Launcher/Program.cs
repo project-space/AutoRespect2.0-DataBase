@@ -1,22 +1,16 @@
-﻿using AutoRespect.DataBase.Migration.Common;
-using AutoRespect.DataBase.Migration.IdentityServer;
-using AutoRespect.DataBase.Migration.ResourceServer;
+﻿using AutoRespect.Infrastructure.DI;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AutoRespect.DataBase.Migration.Launcher
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            var deployers = new Deployer [] {
-                new IdentityServerDeployer(),
-                new ResourceServerDeployer()
-            };
+            var serviceProvider = DIAttributeInstaller.Install(new ServiceCollection());
+            var application = serviceProvider.GetService<IApplication>();
 
-            foreach (var deployer in deployers)
-            {
-                deployer.Run();
-            }
+            return application.Run().Result;
         }
     }
 }
