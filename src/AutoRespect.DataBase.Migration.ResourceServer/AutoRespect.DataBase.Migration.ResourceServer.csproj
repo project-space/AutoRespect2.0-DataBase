@@ -5,11 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Scripts\0000001 - create test table.sql" />
+    <None Remove="Scripts\0000001 - create licence plate table.sql" />
+    <None Remove="Scripts\0000002 - create vehicle table.sql" />
+    <None Remove="Scripts\0000003 - create comment table.sql" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\0000001 - create test table.sql" />
+    <EmbeddedResource Include="Scripts\0000001 - create licence plate table.sql" />
+    <EmbeddedResource Include="Scripts\0000002 - create vehicle table.sql" />
+    <EmbeddedResource Include="Scripts\0000003 - create comment table.sql" />
   </ItemGroup>
 
 </Project>

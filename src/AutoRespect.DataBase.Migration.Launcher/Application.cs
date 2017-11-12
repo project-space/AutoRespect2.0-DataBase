@@ -13,7 +13,7 @@ namespace AutoRespect.DataBase.Migration.Launcher
         Task<int> Run();
     }
 
-    [DI(LifeCycleType.Singleton)]
+    [DI(LifeCycle.Singleton)]
     public class Application : IApplication
     {
         private readonly IDbConnectionStringGetter connectionStringGetter;
